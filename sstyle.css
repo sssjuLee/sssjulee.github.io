@@ -1,0 +1,178 @@
+/*
+    작성자: 이승주
+    앱프로그래밍 포트폴리오 기말 과제
+    2022.12.17
+*/
+
+body {
+    background-color: #efe7e3;
+}
+
+.frame {
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+    }
+
+
+/* menubar */
+
+.menubar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+.site-name {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: #c2b4ab;
+}
+
+li {
+    display: inline;
+    margin: 10px 0px 0px 20px;    
+}
+
+ul {
+    margin:10px 0px 0px 0px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color:white;
+    transition: 0.3s;
+}
+
+.menu {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+/* dashboard */
+
+.dashboard {
+    margin: 40px 40px;
+}
+.photo {
+    display: inline-block;
+    }
+.profile {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+
+}
+
+.bio {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+p {
+    font-family:'Noto Sans KR', sans-serif;
+    color: gray;
+    display: inline-block;
+}
+
+span {
+    font-weight: bold;
+}
+
+/* recent works */
+
+.recent {
+    display: inline;
+    font-family:'Montserrat', sans-serif;
+    color: gray;
+    font-size: 20px;
+    text-align: right;
+    margin: 100px 50px 0px 0px;
+    letter-spacing: 3px;
+}
+
+.recent-works {
+    margin: 0px 40px 40px 40px;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.work {
+    display: flex;
+    flex-direction: row;
+}
+/* contact me */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.contact {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: gray;
+    margin: 20px 0px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid gray;
+}
+
+/* Work */
+
+.allwork {
+    margin: 0px 40px 40px 40px;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.work{
+    margin-bottom: 10px;
+}
+
+/* footer */
+#kakao {
+    margin: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+#dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;            
+}
+
+#kakao:hover #dropdown {
+    display: block;
+    text-align: center;
+}
+
+#insta {
+    margin: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+#dropdown_ {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+#insta:hover #dropdown_ {
+    display: block;
+}
+
